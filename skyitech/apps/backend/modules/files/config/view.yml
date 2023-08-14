@@ -1,3 +1,0 @@
-editSuccess:
-  stylesheets:    [token-input.css, token-input-facebook.css]
-  javascripts:    [jquery.min.js, jquery.tokeninput.js]
