@@ -1,0 +1,22 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        default - Admin - &raquo; Powered By DabangWap.IN
+    robots:       no-index, no-follow
+    language:     en
+
+  stylesheets:    [main]
+
+  javascripts:    [/js/jquery.min.js, /js/ckeditor/ckeditor.js]
+  has_layout:     on
+  layout:         layout
+
+dev:
+  metas:
+    title:        dev-1m.in - Admin - HindiWorth.COM &raquo; Powered By DabangWap.IN
+
+hindiworth:
+  metas:
+    title:        HindiWorth.COM - Admin  &raquo; Powered By DabangWap.IN

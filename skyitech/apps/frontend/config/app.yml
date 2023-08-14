@@ -1,0 +1,27 @@
+dev:
+  webpath:   https://hindiworth.sky
+  sitename: hindiworth.sky
+  smallname: hindiworth
+  filename2hide: (dev.in)
+  onlinetime: 600
+
+hindiworth:
+  webpath:  /
+  sitename: HindiWorth.COM
+  smallname: hindiworth
+  filename2hide: (HindiWorth.COM)
+  onlinetime: 600
+
+all:
+  sfImageTransformPlugin:
+   default_adapter: GD # GD or ImageMagick
+   default_image:
+     mime_type: image/png
+     filename: Untitled.png
+     width: 100
+     height: 100
+     color: '#FFFFFF'
+   font_dir: /usr/share/fonts/truetype/msttcorefonts
+   mime_type:
+     auto_detect: true
+     library: gd_mime_type #  gd_mime_type (GD), Fileinfo (PECL), MIME_Type (PEAR)
