@@ -1,6 +1,6 @@
 FROM nginx
-
-COPY index.html /usr/share/nginx/html/index.html
+WORKDIR /nginx/html/
+COPY index.html .
 
 EXPOSE 80
 
