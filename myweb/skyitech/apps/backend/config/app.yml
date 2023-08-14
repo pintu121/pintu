@@ -1,0 +1,32 @@
+# default values
+dev:
+  webpath:   https://hindiworth.sky/ADmiN
+  upload_dir:   https://hindiworth.sky/siteuploads
+  frontsiteurl:   https://hindiworth.sky
+  webmaster: admin@hindiworth.com
+  filename2hide: -(dev.in)
+  sitename: hindiworth.com
+
+hindiworth:
+  webpath:   https://hindiworth.com/ADmiN
+  upload_dir:   https://hindiworth.com/siteuploads
+  webmaster: admin@hindiworth.com
+  frontsiteurl:   https://hindiworth.com
+  filename2hide: (HindiWorth.COM)
+  sitename: hindiworth.com
+
+all:
+  setorder: on
+  sfImageTransformPlugin:
+   default_adapter: GD # GD or ImageMagick
+   default_image:
+     mime_type: image/png
+     filename: Untitled.png
+     width: 100
+     height: 100
+     color: '#FFFFFF'
+   font_dir: /usr/share/fonts/truetype/msttcorefonts
+   mime_type:
+     auto_detect: true
+     library: gd_mime_type #  gd_mime_type (GD), Fileinfo (PECL), MIME_Type (PEAR)
+  

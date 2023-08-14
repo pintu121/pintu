@@ -1,0 +1,59 @@
+.button1,.l1,.l1 a,.l2,.l2 a{color:#fff}
+.tags{font-size:x-small;padding:4px;border:1px solid #dcdcdc}
+.l1,.l2{background:#3d8cd7;border-bottom:1px solid #3070ac;border-top:1px solid #3070ac}
+.l1 a{display:block}.downLink{margin:5px 0}
+.button{border:none;padding:6px;display:inline-block;font-size:14px;margin:1px;-webkit-transition-duration:.4s;transition-duration:.4s;cursor:pointer}
+.button1{background-color:#d20962;border:2px solid green;border-radius:4px}
+.button1:hover{background-color:#eee;color:#555}
+.button2{background-color:#7d3f98;color:#fff;border:2px solid #00bfff;border-radius:4px}
+.button2:hover{background-color:#eee;color:#555}
+.button3{background-color:#3369e7;color:#fff;border:2px solid #ff1493;border-radius:4px}
+.button3:hover{background-color:#eee;color:#555}
+.button4{background-color:#990033;color:#fff;border:2px solid #696969;border-radius:4px}
+.button4:hover{background-color:#eee;color:#555}
+.button5{background-color:#004d73;color:#fff;border:2px solid #B8860B;border-radius:4px}
+.button5:hover{background-color:#eee;color:#555}
+.button6{background-color:#d40000;color:#fff;border:2px solid #ff8c00;border-radius:4px}
+.button6:hover{background-color:#eee;color:#555}
+.button7{background-color:#622599;color:#fff;border:2px solid #696969;border-radius:4px}
+.button7:hover{background-color:#eee;color:#555}
+.button8{background-color:#fc4c02;color:#fff;border:2px solid #B8860B;border-radius:4px}
+.button8:hover{background-color:#eee;color:#555}
+.button9{background-color:#77216f;color:#fff;border:2px solid #00f;border-radius:4px}
+.button9:hover{background-color:#eee;color:#555}
+.button10{background-color:#16a314;color:#fff;border:2px solid #B22222;border-radius:4px}
+.button10:hover{background-color:#eee;color:#555}
+
+.button{color:#fff}.yellow{background-color:#ff0}.blue{color:#00f}.big{font-size:80em}
+
+.socials-site a:hover {
+  background:#333;
+  }    .information > p {
+    color: #333;
+    margin: 5px 0;
+}
+.socials-site a {
+   border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0px 4px 0;
+    padding: 6px 12px 6px;
+    position: relative;
+    text-decoration: none;
+    top: 2px;
+    font-size: 110%;
+}.whatrs-app-icons {
+    background: none repeat scroll 0 0 #16b508;
+}.facebook-icons {
+    background: none repeat scroll 0 0 #3b5998;
+}
+.vidply {color:#fff; padding:2px;  text-align: center;
+}
+
+.DabangWap1 img {border: 3px double #0898d6;border-radius: 50px;}
+.DabangWap1 img:hover {border:3px #797006 double;border-radius: 5px;opacity: 0.5;transition: opacity .55s ease-in-out;-moz-transition: opacity .55s ease-in-out;-webkit-transition: opacity .55s ease-in-out;}
+
+.DjAashish img:hover {border:3px #8651B2 double;border-radius: 5px;opacity: 0.5;transition: opacity .55s ease-in-out;-moz-transition: opacity .55s ease-in-out;-webkit-transition: opacity .55s ease-in-out;}
+.DjAashish img {border: 3px double #08a0db;border-radius: 50px;}

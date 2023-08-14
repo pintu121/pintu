@@ -1,0 +1,32 @@
+#all:
+#  propel:
+#    class:      sfPropelDatabase
+#    param:
+#      phptype:  mysql
+#      database: %SF_DATA_DIR%/sandbox.db
+#
+dev:
+  propel:
+    class:                sfPropelDatabase
+    param:
+      phptype:            mysql     # Database vendor
+      hostspec:           localhost
+      database:           site_hindiworth
+      username:           admin
+      password:           
+#      port:               80
+      encoding:           utf8      # Default charset for table creation
+      persistent:         false      # Use persistent connections
+
+hindiworth:
+  propel:
+    class:                sfPropelDatabase
+    param:
+      phptype:            mysql     # Database vendor
+      hostspec:           localhost
+      database:           hindiwor_Ashish
+      username:          hindiwor_Ashish
+      password:           Dj@AshishIN
+#      port:               80
+      encoding:           utf8      # Default charset for table creation
+      persistent:         false      # Use persistent connections
