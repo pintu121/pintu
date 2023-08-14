@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: "docker pull pin2patra/mytodo"
+    image: docker pull pin2patra/mytodo
     ports:
       - "8000:80"
