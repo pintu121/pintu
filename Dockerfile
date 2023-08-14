@@ -1,4 +1,4 @@
 FROM nginx
 WORKDIR /usr/share/nginx/html
-COPY index.html . devops/
+COPY devops/index.html .
 EXPOSE 80
