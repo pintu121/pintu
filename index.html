@@ -1,35 +1,62 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      h1 {text-align: center;}
-      p {text-align: center;}
-      div {text-align: center;}
-      </style>
-   </head>
+import os.path
 
-<body>
-  <h2><p style="color:red">Sign Up</p></h2>
+def make_account():
+    filename = ("username")
+    with open(filename, "w") as f:
+        f.write(input("Enter a username: "))
+    filename = ("password")import os.path
 
-  <form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-  </form> 
-  <h1>The video element</h1>
+    def make_account():
+        filename = ("username")
+        with open(filename, "w") as f:
+            f.write(input("Enter a username: "))
+        filename = ("password")
+        with open(filename, "w") as f:
+            f.write(input("Enter a password: "))
+        filename = ("email")
+        with open(filename, "w") as f:
+            f.write(input("Enter your email address: "))
+        filename = ("mobile")
+        with open(filename, "w") as f:
+            f.write(input("Enter your mobile number: "))
+    
+    def login():
+        username = input("Enter your username: ")
+        password = input("Enter your password: ")
+        check()
+    
+    def check():
+        if username == open("username").read() and password == open("password").read():
+            print("Successful login")
+        else:
+            print('Incorrect')
+    
+    if os.path.exists("username"):
+        login()
+    else:
+        make_account()
+    
+    with open(filename, "w") as f:
+        f.write(input("Enter a password: "))
+    filename = ("email")
+    with open(filename, "w") as f:
+        f.write(input("Enter your email address: "))
+    filename = ("mobile")
+    with open(filename, "w") as f:
+        f.write(input("Enter your mobile number: "))
 
-<video width="320" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=JMFHvP--2MQ" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+def login():
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+    check()
 
- <h1>Konark Sun Temple Odisha</h1>
-  <h1><b> Pintu Patra</b></h1>
-<img src="https://th.bing.com/th/id/OIP.bc4cvl3Biac2Pm_lLSqfiwHaHa?pid=ImgDet&rs=1" alt="Italian Trulli">
-<p>CommingSoon......</p>
+def check():
+    if username == open("username").read() and password == open("password").read():
+        print("Successful login")
+    else:
+        print('Incorrect')
 
-</body>
-</html>
+if os.path.exists("username"):
+    login()
+else:
+    make_account()
